@@ -1,15 +1,15 @@
-[submodule "vim-less"]
-	path = vim/janus.symlink/vim-less
-	url = https://github.com/groenewege/vim-less.git
-[submodule "vim-delimitMate"]
-	path = vim/janus.symlink/delimitMate
-	url = git://github.com/Raimondi/delimitMate.git
-[submodule "vim-php"]
-	path = vim/janus.symlink/php
-	url = https://github.com/StanAngeloff/php.vim.git
-[submodule "vim-AutoTag"]
+[submodule "vim/janus.symlink/groovy.vim"]
+	path = vim/janus.symlink/groovy.vim
+	url = git://github.com/vim-scripts/groovy.vim.git
+[submodule "vim/janus.symlink/AutoTag"]
 	path = vim/janus.symlink/AutoTag
 	url = https://github.com/grota/AutoTag.git
-[submodule "vim-groovy"]
-	path = vim/janus.symlink/groovy
-	url = git://github.com/vim-scripts/groovy.vim.git
+[submodule "vim/janus.symlink/php.vim"]
+	path = vim/janus.symlink/php.vim
+	url = https://github.com/StanAngeloff/php.vim.git
+[submodule "vim/janus.symlink/delimitMate"]
+	path = vim/janus.symlink/delimitMate
+	url = git://github.com/Raimondi/delimitMate.git
+[submodule "vim/janus.symlink/vim-less"]
+	path = vim/janus.symlink/vim-less
+	url = https://github.com/groenewege/vim-less.git
