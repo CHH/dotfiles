@@ -1,0 +1,10 @@
+*~
+.DS_Store
+*.iml
+*.ipr
+*.iws
+.idea/
+.*.sw[a-z]
+*.un~
+Session.vim
+tags

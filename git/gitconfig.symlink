@@ -1,0 +1,56 @@
+[user]
+	name = Christoph Hochstrasser
+	email = christoph.hochstrasser@gmail.com
+[giggle]
+	main-window-maximized = false
+	main-window-geometry = 1172x903+1552+78
+	file-view-vpane-position = 510
+	main-window-view = HistoryView
+	history-view-vpane-position = 563
+[color]
+	ui = auto
+[github]
+	user = CHH
+	token = 53ca1861a76d8679f2f32fced0a812fc
+[alias]
+	a = add
+	ai = add --interactive
+	b = branch
+	c = commit
+	ca = commit --amend
+	cm = commit -m 
+	co = checkout
+	d = diff
+	l = log --abbrev-commit --relative-date --graph
+	log = log --abbrev-commit --relative-date --graph
+	s = status -s
+	p = push
+    pu = pull
+    po = pull origin
+    pso = push origin
+	pom = pull origin master
+	psom = push origin master
+	svu = svn rebase
+	svc = svn dcommit
+	st = stash
+	stp = stash pop
+	switch = !legit switch \"$@\"
+	branches = !legit branches
+	sprout = !legit sprout \"$@\"
+	unpublish = !legit unpublish \"$@\"
+	harvest = !legit harvest \"$@\"
+	sync = !legit sync \"$@\"
+	publish = !legit publish \"$@\"
+	graft = !legit graft \"$@\"
+[core]
+	autocrlf = input
+	editor = vim -f
+	excludesfile = /Users/chh/.gitignore_global
+[push]
+	default = tracking
+[difftool "sourcetree"]
+	cmd = opendiff \"$LOCAL\" \"$REMOTE\"
+	path = 
+[mergetool "sourcetree"]
+	cmd = /Applications/SourceTree.app/Contents/Resources/opendiff-w.sh \"$LOCAL\" \"$REMOTE\" -ancestor \"$BASE\" -merge \"$MERGED\"
+	trustExitCode = true

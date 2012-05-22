@@ -1,0 +1,20 @@
+export GRAILS_VERSION="1.3.7"
+export GRAILS_HOME=$HOME/grails/versions/$GRAILS_VERSION
+export GRAILS_OPTS="-Xmx1G -Xms256m -XX:MaxPermSize=512m"
+
+# User specific aliases and functions
+export PATH=\
+$HOME/.phpenv/bin:\
+$HOME/Source/trek/bin:\
+$HOME/Source/tacker/bin:\
+$HOME/local/idea/bin:\
+$HOME/local/idea_11/bin:\
+$GRAILS_HOME/bin:\
+$HOME/groovy/bin:\
+/usr/local/sbin:\
+$PATH
+
+export IDEA_JDK=/usr/java/default
+
+eval "$(phpenv init -)"
+

@@ -1,0 +1,18 @@
+set nowrap
+set tabstop=4
+set shiftwidth=4
+set softtabstop=4
+set expandtab
+
+" Status Bar
+set laststatus=2
+
+" Solarized settings
+let g:solarized_italic=0
+set background=dark
+colorscheme solarized
+
+set linespace=2
+
+set encoding=utf-8
+
