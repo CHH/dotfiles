@@ -1,4 +1,5 @@
 require 'rake'
+# Rakefile by @holman.
 
 desc "Hook our dotfiles into system-standard positions."
 task :install do
