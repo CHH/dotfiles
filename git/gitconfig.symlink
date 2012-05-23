@@ -9,9 +9,6 @@
 	history-view-vpane-position = 563
 [color]
 	ui = auto
-[github]
-	user = CHH
-	token = 53ca1861a76d8679f2f32fced0a812fc
 [alias]
 	a = add
 	ai = add --interactive
