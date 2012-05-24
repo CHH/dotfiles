@@ -8,6 +8,8 @@ These are my dotfiles. There are many like it, but these ones are mine.
  * ZSH
  * Rake (for installing)
 
+[legit]: http://www.git-legit.org/
+
 ## Install
 
     git clone git://github.com/CHH/dotfiles ~/.dotfiles
