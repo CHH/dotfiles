@@ -34,7 +34,7 @@ plugins=(git git-flow gem brew npm rake ruby)
 source $ZSH/oh-my-zsh.sh
 
 # Autoload all .zsh files in my dotfiles repo.
-for config_file ($HOME/dotfiles/zsh/**/*.zsh) source $config_file
+for config_file ($HOME/.dotfiles/zsh/**/*.zsh) source $config_file
 
 setopt nocorrect
 setopt nocorrectall
