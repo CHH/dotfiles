@@ -13,6 +13,5 @@ set background=dark
 colorscheme solarized
 
 set linespace=2
-
 set encoding=utf-8
 

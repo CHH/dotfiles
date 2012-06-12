@@ -16,3 +16,6 @@
 [submodule "vim/janus.symlink/vim-coffee-script"]
 	path = vim/janus.symlink/vim-coffee-script
 	url = https://github.com/kchmck/vim-coffee-script
+[submodule "vim/janus.symlink/vim-golang"]
+	path = vim/janus.symlink/vim-golang
+	url = https://github.com/jnwhiteh/vim-golang.git

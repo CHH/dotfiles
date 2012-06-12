@@ -2,7 +2,7 @@ require 'rake'
 # Rakefile by @holman.
 
 desc "Hook our dotfiles into system-standard positions."
-task :install do
+task :install => [:install_fish] do
   linkables = Dir.glob('*/**{.symlink}')
 
   skip_all = false
@@ -33,6 +33,21 @@ task :install do
     end
     `ln -s "$PWD/#{linkable}" "#{target}"`
   end
+end
+
+task :install_fish do
+  target = "#{ENV["HOME"]}/.config/fish/config.fish"
+
+  if File.exists?(target)
+    puts "File already exists: #{target}"
+    return
+  end
+
+  if !File.directory?(File.dirname(target))
+    Dir.mkdir(File.dirname(target))
+  end
+
+  `ln -s "$PWD/config/fish/config.fish" "#{target}"`
 end
 
 task :uninstall do
