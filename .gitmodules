@@ -19,3 +19,6 @@
 [submodule "vim/janus.symlink/vim-golang"]
 	path = vim/janus.symlink/vim-golang
 	url = https://github.com/jnwhiteh/vim-golang.git
+[submodule "vim/janus.symlink/Jinja"]
+	path = vim/janus.symlink/Jinja
+	url = https://github.com/vim-scripts/Jinja.git

@@ -15,3 +15,5 @@ colorscheme solarized
 set linespace=2
 set encoding=utf-8
 
+au BufNewFile,BufRead *.twig set filetype=Jinja
+

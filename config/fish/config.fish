@@ -1,6 +1,6 @@
 
 for config_file in $HOME/.dotfiles/config/fish/**/*.fish
-    source $config_file
+    . $config_file
 end
 
 alias pw pws
@@ -8,15 +8,14 @@ alias pw pws
 set -x PWS "$HOME/Dropbox/.pws"
 set -x NODE_PATH /usr/local/lib/node_modules
 
-set PATH $PATH "$HOME/.phpenv/shims"
-set PATH $PATH "$HOME/.phpenv/bin"
+set PATH $HOME/.phpenv/shims $HOME/.phpenv/bin $HOME/local/bin /sbin /bin /usr/bin /usr/sbin /usr/local/bin /usr/local/sbin
 
 set PATH $PATH "$HOME/Projects/php-project/bin"
 set PATH $PATH /usr/local/go/bin:$PATH
 set PATH $PATH /usr/local/Cellar/ruby/1.9.3-p0/bin
-
-set PATH $PATH "$HOME/local/bin"
 set PATH $PATH "$HOME/tools/bin"
+
+set fish_complete_path $fish_complete_path "$HOME/.dotfiles/config/fish/completions/"
 
 function git_prompt
     set head (git symbolic-ref HEAD 2> /dev/null)
